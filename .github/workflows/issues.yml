@@ -1,7 +1,5 @@
 name: Issues Notification
-on:
-  issues:
-    types: [opened]
+on: [workflow_dispatch, issues]
 jobs:
   info:
     runs-on: ubuntu-latest
